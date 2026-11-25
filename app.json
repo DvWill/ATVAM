@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "meu-bolso",
+    "name": "Meu Bolso",
     "slug": "meu-bolso",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -11,7 +11,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#E3F4EF",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
@@ -20,6 +20,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-font"
+    ],
+    "scheme": "meubolso"
   }
 }
